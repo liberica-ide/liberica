@@ -7,7 +7,7 @@ public class Liberica.Sidebar : Gtk.Box {
     }
 
     construct {
-        var tree_view = new Liberica.TreeListRow ();
+        var tree_view = new Liberica.TreeViewBox ();
 
         var scrolled_window = new Gtk.ScrolledWindow() {
             child = tree_view

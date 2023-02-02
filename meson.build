@@ -16,7 +16,6 @@ dep = [
     dependency('gio-2.0'),
     dependency('gee-0.8'),
     dependency('gtk4'),
-    dependency('vte-2.91-gtk4'),
     dependency('gtksourceview-5'),
     dependency('granite-7'),
     dependency('libadwaita-1'),

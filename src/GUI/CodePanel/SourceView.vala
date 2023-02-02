@@ -1,5 +1,5 @@
 public class Liberica.SourceView : GtkSource.View {
-    private GtkSource.Buffer source_buffer;
+    // private GtkSource.Buffer source_buffer;
 
 	public SourceView () {
         Object (
@@ -15,8 +15,8 @@ public class Liberica.SourceView : GtkSource.View {
     }
 
     construct {
-        string mime_type = ContentType.get_mime_type (info.get_attribute_as_string (FileAttribute.STANDARD_CONTENT_TYPE));
-		language = manager.guess_language(file.get_path(), mime_type).get_name();
-        text_buffer.set_language(language_manager.guess_language(file.get_path(), mime_type));
+  //       string mime_type = ContentType.get_mime_type (info.get_attribute_as_string (FileAttribute.STANDARD_CONTENT_TYPE));
+		// language = manager.guess_language(file.get_path(), mime_type).get_name();
+  //       text_buffer.set_language(language_manager.guess_language(file.get_path(), mime_type));
     }
 }

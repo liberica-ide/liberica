@@ -11,7 +11,8 @@ sources2 = files(
     'CodePanel/SourceView.vala',
 
     'BottomPanel/BottomBox.vala',
-    'BottomPanel/VteTerminal.vala',
+    #'BottomPanel/VteTerminal.vala',
+    #'BottomPanel/TopBar.vala',
 )
 
 executable(

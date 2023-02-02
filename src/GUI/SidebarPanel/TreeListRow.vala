@@ -1,5 +1,5 @@
-public class Liberica.TreeListRow : Gtk.TreeView {
-    public TreeListRow () {
+public class Liberica.TreeViewBox : Gtk.TreeView {
+    public TreeViewBox () {
         vexpand = true;
         hexpand = true;
     }
